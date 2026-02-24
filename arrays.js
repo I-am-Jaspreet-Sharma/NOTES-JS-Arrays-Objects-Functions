@@ -249,3 +249,7 @@ console.log(copiedArray2); // array -> ["hello", 1, "How are you ?", {id: 1, sal
 // deep copying means the nested objects and arrays will be copied or passed by value.
 
 // --------------------------------------------------------------------------------------------------------------------------------------------------- //
+
+const r = `${[1,2,3,4,5]}`;
+console.log(r); // "1,2,3,4,5"
+console.log(typeof r); // "string"

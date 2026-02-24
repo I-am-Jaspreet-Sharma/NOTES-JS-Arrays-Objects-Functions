@@ -1,0 +1,37 @@
+const x = 10n;
+console.log(typeof x);
+
+let y;
+console.log(typeof y);
+
+const z = null;
+// console.log(typeof z == null);
+
+const uniqueRuneId = Symbol("rune of fire");
+console.log(typeof uniqueRuneId);
+// console.log(uniqueRuneId.toString());
+
+function add(a,b)
+{
+    return a+b;
+}
+
+const original = {
+    names: {
+        1: "A",
+        2: "B",
+    },
+    age: {
+        1: 10,
+        2: 20
+    }
+};
+console.log(original);
+const copies = structuredClone(original);
+console.log(copies);
+
+const spell = ["lightning", "rage", "poison"];
+console.log(Array.isArray(original));
+
+const partner = null;
+console.log(partner === null);

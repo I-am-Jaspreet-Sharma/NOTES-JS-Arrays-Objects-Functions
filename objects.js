@@ -141,4 +141,13 @@ for(const key in employee) console.log(key); // "name" | "salary"
  * 3. do-while loop guarantees first iteration
  * 4. for...in loop is used for objects only
  * 5. for...of, map, forEach, filter, reduce are all used for arrays
+ * 6. Object keys can only be String or Symbol.
 */
+
+// ---------------------------------------------------------------------------------------------------------------------------------------------------- //
+
+const key1 = "name";
+const obj = {
+    [key1]: "Jaspreet",
+};
+console.log(obj); // {name: "Jaspreet"}
